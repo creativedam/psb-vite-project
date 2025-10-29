@@ -18,7 +18,7 @@
 <script>
 import Top from '@/components/Top.vue'
 import Nav from '../components/nav/Nav.vue';
-import Footer from '../components/Shared/Footer.vue';
+import Footer from '../components/Shared/Footer.vue'; 1
 
 export default {
     name: 'Home',
