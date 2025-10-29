@@ -13,7 +13,7 @@
       For Booking and Information
     </h2>
     <p class="w-full text-center p-4 text-sky-950">
-      Reach us on +26773 807 099
+      Reach us on pharmasocietybots2022@gmail.com
     </p>
 
     <p class="w-full text-center p-4 text-sky-950">

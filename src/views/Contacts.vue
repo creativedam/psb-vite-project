@@ -9,7 +9,7 @@
         </p>
         <h2 class="w-full text-center p-4 text-red-500">Our website is under maintanace</h2>
         <p class="w-full text-center p-4 text-sky-950">
-            Reach us on : pharmasocietybots2022@gmail.com
+            Reach us on info@psb.org.bw
         </p>
         <Footer />
     </div>
