@@ -2,14 +2,14 @@
     <div class="about w-fu">
         <Top />
         <Nav />
-            <h1 class=" text-amber-800 text-4xl py-5 text-center font-bold">Contacts</h1>
+        <h1 class=" text-sky-800 text-4xl py-5 text-center font-bold">Contacts</h1>
 
-        <p class="w-full text-center p-4 text-amber-950 text-2xl">
-            We are Borocamp Okavango Safari
+        <p class="w-full text-center p-4 text-sky-950 text-2xl">
+            We are Pharmaceutical Society Of Botswana
         </p>
         <h2 class="w-full text-center p-4 text-red-500">Our website is under maintanace</h2>
-        <p class="w-full text-center p-4 text-amber-950">
-            Reach us on +26773 807 099
+        <p class="w-full text-center p-4 text-sky-950">
+            Reach us on : pharmasocietybots2022@gmail.com
         </p>
         <Footer />
     </div>

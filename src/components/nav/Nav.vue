@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white  h-15 mb-2 md:mb-0 border-b-1 border-amber-800 relative z-50 block">
+  <div class="w-full bg-white  h-15 mb-2 md:mb-0 border-b-1 border-sky-800 relative z-50 block">
     <!-- Book Button (Mobile) -->
     <router-link
       class="block px-4 py-2 my-2 font-semibold text-base visible sm:hidden text-white shadow-sm absolute pt-2 md:pt-0 top-1 right-4"
@@ -11,9 +11,9 @@
     <div class="md:container md:relative w-full mx-auto block">
       <nav id="menu-main" class="xs:hidden w-full block md:flex justify-center h-15 ">
         <ul id="nav-main"
-          class="xs:hidden md:grid grid-cols-6 h-15 w-3/5 md:w-5/6 text-amber-800 text-base md:text-sm lg:text-base font-medium font-sans">
+          class="xs:hidden md:grid grid-cols-6 h-15 w-3/5 md:w-5/6 text-sky-800 text-base md:text-sm lg:text-base font-medium font-sans">
           <li class="py-4 h-15">
-            <router-link class="hover:text-org-100 text-center px-3 border-r border-dashed border-amber-800 block"
+            <router-link class="hover:text-org-100 text-center px-3 border-r border-dashed border-sky-800 block"
               to="/">Home</router-link>
 
           </li>
@@ -22,14 +22,14 @@
           <li v-for="(menu, key) in menus" :key="key" class="py-4 h-15 relative" @mouseenter="activeMenu = key"
             @mouseleave="activeMenu = null">
 
-            <router-link class="text-center hover:text-org-100 px-4 border-r border-dashed border-amber-800e block"
+            <router-link class="text-center hover:text-org-100 px-4 border-r border-dashed border-sky-800e block"
               :to="`${menu.url}`">{{ menu.title }}
             </router-link>
           </li>
 
           <!-- Static Contact Link -->
           <li class="py-4 h-15">
-            <router-link class="hover:text-org-100 text-center px-3 border-dashed border-amber-800 block"
+            <router-link class="hover:text-org-100 text-center px-3 border-dashed border-sky-800 block"
               to="/contacts">Contact
             </router-link>
           </li>
@@ -41,7 +41,7 @@
         <div v-if="activeMenu === key"
           class="grid grid-cols-3 grid-rows-1 h-72 w-full drop-shadow-md border-t-4 border-org-200 z-30 overflow-hidden animate__animated animate__fadeIn">
           <!-- Menu Title -->
-          <div class="menu-title h-full py-5 px-8 bg-amber-900/90 text-white">
+          <div class="menu-title h-full py-5 px-8 bg-sky-900/90 text-white">
             <div class="overflow-hidden h-full ml-16">
               <h1
                 class="text-4xl block text-left font-lusitana font-bold my-6 drop-shadow-md animate__animated animate__fadeInLeft">
@@ -114,25 +114,25 @@ const menus = {
     ],
   },
   services: {
-    title: 'Destinations',
+    title: 'Membership',
     url: '/',
     items: [
       {
-        label: 'Destination 1',
+        label: 'Membership 1',
         key: '1',
-        description: 'Destination description',
+        description: 'Membership description',
         url: '#',
       },
       {
-        label: 'Destination 2',
+        label: 'Membership 2',
         key: '2',
-        description: 'Distination description',
+        description: 'Membership description',
         url: '/',
       },
       {
-        label: 'Destination 3',
+        label: 'Membership 3',
         key: '3',
-        description: 'Distination description',
+        description: 'Membership description',
         url: '#',
       },
     ],
@@ -161,26 +161,26 @@ const menus = {
       },
     ],
   },
-  safaris: {
-    title: 'Safari',
+  Gallerys: {
+    title: 'Gallery',
     url: '/',
     items: [
       {
-        label: 'Safari 1',
+        label: 'Gallery 1',
         key: '1',
-        description: 'Safari description',
+        description: 'Gallery description',
         url: '#',
       },
       {
-        label: 'Safari 2',
+        label: 'Gallery 2',
         key: '2',
-        description: 'Safari description',
+        description: 'Gallery description',
         url: '/',
       },
       {
-        label: 'Safari 3',
+        label: 'Gallery 3',
         key: '3',
-        description: 'Safari description',
+        description: 'Gallery description',
         url: '#',
       },
     ],

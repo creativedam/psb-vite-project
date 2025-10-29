@@ -1,13 +1,13 @@
 <template>
-  <div class="relative w-full h-140 overflow-hidden">
+  <div class="relative w-full h-180 overflow-hidden">
     <!-- Slides -->
     <div v-for="(slide, index) in slides" :key="index" class="absolute inset-0 transition-opacity duration-700"
       :class="currentSlide === index ? 'opacity-100' : 'opacity-0'">
       <!-- Background image -->
-      <div class="w-full h-140 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
+      <div class="w-full h-180 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
         <!-- Overlay content -->
         <div
-          class="bg-transparent  w-full h-full flex flex-col justify-center items-center px-20 animate__animated animate__fadeInDown">
+          class="bg-transparent  w-full h-full flex flex-col justify-center items-left px-20 animate__animated animate__fadeInDown">
           <h1 class="text-white text-5xl font-medium mb-2 font-lusitana">
             {{ slide.title }}
           </h1>
@@ -44,13 +44,13 @@ export default {
       slides: [
         {
           image: new URL("@/assets/image_1.jpg", import.meta.url).href, // replace with your image
-          title: "WELCOME  TO  BORO OKAVANGO SAFARI",
-          subtitle: "Boro Okavango Safari",
+          title: "Pharmaceutical Society Of Botswana",
+          subtitle: "Driven by purpose we stand with the community, promoting health, hope, and humanity.",
         },
         {
           image: new URL("@/assets/image_2.jpg", import.meta.url).href, // replace with your image
-          title: "WELCOME  TO  BORO OKAVANGO SAFARI",
-          subtitle: "Boro Okavango Safari",
+          title: "Pharmaceutical Society Of Botswana",
+          subtitle: "Guided by compassion, ",
         },
       ],
     };
