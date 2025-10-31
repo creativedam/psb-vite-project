@@ -40,8 +40,9 @@
                                 Society of Botswana.
                             </p>
                         </div>
-                        <router-link class=" bg-sky-500 relative block px-4 border  rounded-2xl border-gray-500 py-4 my-2 w-60
-                         font-semibold text-base text-white hover:text-sky-800 hover:bg-white text-center shadow-sm"
+                        <router-link
+                            class=" bg-sky-500 relative block px-4 border  rounded-2xl border-white py-4 my-2 w-60
+                         font-semibold text-base text-white hover:text-sky-800 hover:bg-white  hover:border-sky-800 text-center shadow-sm"
                             to="/contacts">Contact Us
                         </router-link>
 

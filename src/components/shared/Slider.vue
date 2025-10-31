@@ -36,7 +36,7 @@
 
 <script>
 import image1 from "@/assets/image_1.jpg";
-import image2 from "@/assets/image_2.jpg";
+import image2 from "@/assets/image_1.jpg";
 export default {
   data() {
     return {
@@ -45,12 +45,12 @@ export default {
         {
           image: new URL("@/assets/image_1.jpg", import.meta.url).href, // replace with your image
           title: "Pharmaceutical Society Of Botswana",
-          subtitle: "Driven by purpose we stand with the community, promoting health, hope, and humanity.",
+          subtitle: "We stand with the community, promoting health, hope, and humanity.",
         },
         {
-          image: new URL("@/assets/image_2.jpg", import.meta.url).href, // replace with your image
+          image: new URL("@/assets/image_1.jpg", import.meta.url).href, // replace with your image
           title: "Pharmaceutical Society Of Botswana",
-          subtitle: "Guided by compassion, ",
+          subtitle: "Guided by compassion, Driven by purpose",
         },
       ],
     };

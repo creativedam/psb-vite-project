@@ -10,10 +10,10 @@
       Our website is under maintanace
     </h1>
     <h2 class="w-full text-center p-4 text-black text-bold text-2xl">
-      For Booking and Information
+      Join Today
     </h2>
     <p class="w-full text-center p-4 text-sky-950">
-      Reach us on pharmasocietybots2022@gmail.com
+      Reach us on info@psb.org.bw
     </p>
 
     <p class="w-full text-center p-4 text-sky-950">
