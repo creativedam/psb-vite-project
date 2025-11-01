@@ -26,6 +26,4 @@ export default {
         Footer
     }
 }
-
-
 </script>

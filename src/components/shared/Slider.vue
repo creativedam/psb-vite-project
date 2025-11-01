@@ -7,11 +7,16 @@
       <div class="w-full h-180 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
         <!-- Overlay content -->
         <div
-          class="bg-transparent  w-full h-full flex flex-col justify-center items-left px-20 animate__animated animate__fadeInDown">
-          <h1 class="text-white text-5xl font-medium mb-2 font-lusitana">
+          class="bg-transparent  w-full h-full flex flex-col justify-center items-center pt-40 px-20 animate__animated animate__fadeInDown">
+          <h1 class="text-white text-6xl font-medium mb-2 font-lusitana">
             {{ slide.title }}
           </h1>
           <p class="text-white text-xl">{{ slide.subtitle }}</p>
+          <router-link
+            class=" bg-white relative block px-4 border border-white py-4 my-2 w-60
+                         font-semibold text-base text-gray-800 hover:text-white hover:bg-sky-800  hover:border-sky-800 text-center shadow-sm"
+            to="/contacts">Contact Us
+          </router-link>
         </div>
       </div>
     </div>

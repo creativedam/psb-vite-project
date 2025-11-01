@@ -2,6 +2,7 @@
   <div class="home w-full">
     <Top />
     <Nav />
+    <Logo class="absolute left-10 w-50 h-50 mt-20 ml-20 z-50" />
     <Slider />
     <ContentSection />
     <div class="logo mb-14 relative h-40 w-40 center mx-auto block"></div>
@@ -31,6 +32,7 @@ import Slider from "@/components/Shared/Slider.vue";
 import Strip from "@/components/Shared/Strip.vue";
 import About from "@/components/Shared/About.vue";
 import ContentSection from "@/components/Shared/ContentSection.vue";
+import Logo from "@/components/Shared/Logo.vue";
 
 export default {
   name: "Home",
@@ -41,7 +43,8 @@ export default {
     Slider,
     Strip,
     About,
-    ContentSection
+    ContentSection,
+    Logo
   },
 };
 </script>
