@@ -6,21 +6,7 @@
     <Slider />
     <ContentSection />
     <ActivitiesPoster />
-    <div class="logo mb-14 relative h-40 w-40 center mx-auto block"></div>
-
-    <h1 class="text-skys-800 text-4xl py-5 text-center font-bold">
-      Our website is under maintanace
-    </h1>
-    <h2 class="w-full text-center p-4 text-black text-bold text-2xl">
-      Join Today
-    </h2>
-    <p class="w-full text-center p-4 text-sky-950">
-      Reach us on info@psb.org.bw
-    </p>
-
-    <p class="w-full text-center p-4 text-sky-950">
-      Welcome to Pharmaceutical Society Of Botswana
-    </p>
+    <div class="logo mb-14 relative h-40 w-40 mt-10 center mx-auto block"></div>
     <Footer />
   </div>
 </template>
@@ -35,7 +21,6 @@ import About from "@/components/Shared/About.vue";
 import ActivitiesPoster from "../components/shared/ActivitiesPoster.vue";
 import ContentSection from "@/components/Shared/ContentSection.vue";
 import Logo from "@/components/Shared/Logo.vue";
-import ActivitiesPoster from "../components/shared/ActivitiesPoster.vue";
 
 export default {
   name: "Home",
@@ -46,6 +31,7 @@ export default {
     Slider,
     Strip,
     About,
+    ActivitiesPoster,
     ContentSection,
     Logo
   },
