@@ -3,6 +3,8 @@
     'w-full bg-white h-15 mb-2 md:mb-0 border-b border-sky-800 relative z-50 block transition-all duration-300',
     showMenu ? 'translate-y-0' : '-translate-y-full'
   ]" @mouseleave="closeMenus">
+
+
     <!-- Book Button (Mobile) -->
     <router-link
       class="block px-4 py-2 my-2 font-semibold text-base visible sm:hidden text-white shadow-sm absolute pt-2 md:pt-0 top-1 right-4"
